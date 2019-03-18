@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/handsontable.full.css" rel="stylesheet" media="screen">
+    <title>OpenCameraDB</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <span class="navbar-brand mb-0 h1">OpenCameraDB</span>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="alert alert-danger" role="alert">
+          Camera Model of RED Camera is called a <strong>Brain</strong>.
+        </div>
+        <div class="alert alert-primary" role="alert">
+          AIR - <strong>A</strong>ctive <strong>I</strong>mage <strong>R</strong>esolution
+        </div>
+        <div class="alert alert-warning" role="alert">
+          SIA - <strong>S</strong>ensor <strong>I</strong>mage <strong>A</strong>rea
+        </div>
+      </div>
+    </div>
+
+    <div id="camdb"></div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/handsontable.full.min.js"></script>
+    <script>
+
+      var container = document.getElementById('camdb');
+      var hot = new Handsontable(container, {
+        editor: false,
+        data: Handsontable.helper.createSpreadsheetData(60, 11),
+        rowHeaders: true,
+        colHeaders: ['Maker', 'Model / Brain', 'Sensor', 'Former', 'Format', 'Resolution', 'Mode', 'AIR.Width', 'AIR.Height', 'SIA.Width', 'SIA.Height'],
+        filters: true,
+        dropdownMenu: ['filter_by_condition', 'filter_action_bar', 'filter_by_value'],
+        stretchH: 'all',
+        fixedRowsTop: 0,
+        fillHandle: false,
+        className: "htCenter",
+        currentRowClassName: 'currentRow',
+        currentColClassName: 'currentCol',
+        licenseKey: `non-commercial-and-evaluation`
+      });
+
+    </script>
+
+  </body>
+</html>
