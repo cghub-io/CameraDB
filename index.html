@@ -17,25 +17,15 @@
     <title>OpenCameraDB</title>
   </head>
   <body>
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar sticky-top navbar-dark bg-dark">
       <span class="navbar-brand mb-0 h1">OpenCameraDB</span>
+      <span class="navbar-text">
+        AIR - <strong>A</strong>ctive <strong>I</strong>mage <strong>R</strong>esolution , SIA - <strong>S</strong>ensor <strong>I</strong>mage <strong>A</strong>rea
+      </span>
     </nav>
 
-    <div class="container">
-      <div class="row">
-        <div class="alert alert-danger" role="alert">
-          Camera Model of RED Camera is called a <strong>Brain</strong>.
-        </div>
-        <div class="alert alert-primary" role="alert">
-          AIR - <strong>A</strong>ctive <strong>I</strong>mage <strong>R</strong>esolution
-        </div>
-        <div class="alert alert-warning" role="alert">
-          SIA - <strong>S</strong>ensor <strong>I</strong>mage <strong>A</strong>rea
-        </div>
-      </div>
-    </div>
 
-    <div id="camdb"></div>
+    <div class="card" id="camdb"></div>
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
@@ -44,6 +34,7 @@
 
       var container = document.getElementById('camdb');
       var hot = new Handsontable(container, {
+        readOnly: true,
         editor: false,
         data: Handsontable.helper.createSpreadsheetData(60, 11),
         rowHeaders: true,
