@@ -14,18 +14,17 @@
     }
     </style>
 
-    <title>OpenCameraDB</title>
+    <title>CameraDB</title>
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-dark bg-dark">
-      <span class="navbar-brand mb-0 h1">OpenCameraDB</span>
+    <nav class="navbar navbar-dark bg-dark">
+      <span class="navbar-brand mb-0 h1">CameraDB</span>
       <span class="navbar-text">
         AIR - <strong>A</strong>ctive <strong>I</strong>mage <strong>R</strong>esolution , SIA - <strong>S</strong>ensor <strong>I</strong>mage <strong>A</strong>rea
       </span>
     </nav>
 
-
-    <div class="card" id="camdb"></div>
+    <div id="camdb"></div>
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
@@ -41,12 +40,14 @@
         colHeaders: ['Maker', 'Model / Brain', 'Sensor', 'Former', 'Format', 'Resolution', 'Mode', 'AIR.Width', 'AIR.Height', 'SIA.Width', 'SIA.Height'],
         filters: true,
         dropdownMenu: ['filter_by_condition', 'filter_action_bar', 'filter_by_value'],
+
         stretchH: 'all',
         fixedRowsTop: 0,
         fillHandle: false,
         className: "htCenter",
         currentRowClassName: 'currentRow',
         currentColClassName: 'currentCol',
+        multiColumnSorting: true,
         licenseKey: `non-commercial-and-evaluation`
       });
 
