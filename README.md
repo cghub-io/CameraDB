@@ -1,3 +1,3 @@
 # CameraDB
 
-[Preview - https://kohyuk91.github.io/OpenCameraDB/](https://kohyuk91.github.io/CameraDB/)
+[Preview - https://kohyuk91.github.io/CameraDB/](https://kohyuk91.github.io/CameraDB/)
