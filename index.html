@@ -1,58 +1,68 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/handsontable.full.css" rel="stylesheet" media="screen">
 
-    <style>
+<head>
+  <meta charset="utf-8">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/handsontable.full.css" rel="stylesheet" media="screen">
+
+  <style>
     .currentRow {
       background-color: #E7E8EF !important;
     }
+
     .currentCol {
       background-color: #E7E8EF !important;
     }
-    </style>
+  </style>
 
-    <title>CameraDB</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-dark bg-dark">
-      <span class="navbar-brand mb-0 h1">CameraDB</span>
-      <span class="navbar-text">
-        AIR - <strong>A</strong>ctive <strong>I</strong>mage <strong>R</strong>esolution , SIA - <strong>S</strong>ensor <strong>I</strong>mage <strong>A</strong>rea
-      </span>
-    </nav>
+  <title>CameraDB</title>
+</head>
 
-    <div id="camdb"></div>
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <span class="navbar-brand mb-0 h1">CameraDB</span>
+    <span class="navbar-text">
+      AIR - <strong>A</strong>ctive <strong>I</strong>mage <strong>R</strong>esolution , SIA - <strong>S</strong>ensor <strong>I</strong>mage <strong>A</strong>rea
+    </span>
+  </nav>
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/handsontable.full.min.js"></script>
-    <script>
+  <div id="camdb"></div>
 
-      var container = document.getElementById('camdb');
-      var hot = new Handsontable(container, {
-        readOnly: true,
-        editor: false,
-        data: Handsontable.helper.createSpreadsheetData(60, 11),
-        rowHeaders: true,
-        colHeaders: ['Maker', 'Model / Brain', 'Sensor', 'Former', 'Format', 'Resolution', 'Mode', 'AIR.Width', 'AIR.Height', 'SIA.Width', 'SIA.Height'],
-        filters: true,
-        dropdownMenu: ['filter_by_condition', 'filter_action_bar', 'filter_by_value'],
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/handsontable.full.min.js"></script>
+  <script>
 
-        stretchH: 'all',
-        fixedRowsTop: 0,
-        fillHandle: false,
-        rowHeights: 30,
-        className: "htCenter htMiddle",
-        currentRowClassName: 'currentRow',
-        currentColClassName: 'currentCol',
-        multiColumnSorting: true,
-        licenseKey: `non-commercial-and-evaluation`
-      });
+  fetch('data/db.json')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data) // Prints result from `response.json()` in getRequest
+  })
+  .catch(error => console.error(error))
 
-    </script>
 
-  </body>
+    var container = document.getElementById('camdb');
+    var hot = new Handsontable(container, {
+      readOnly: true,
+      editor: false,
+      data: Handsontable.helper.createSpreadsheetData(60, 11),
+      rowHeaders: true,
+      colHeaders: ['Maker', 'Model / Brain', 'Sensor', 'Former', 'Format', 'Resolution', 'Mode', 'AIR.Width', 'AIR.Height', 'SIA.Width', 'SIA.Height'],
+      filters: true,
+      dropdownMenu: ['filter_by_condition', 'filter_action_bar', 'filter_by_value'],
+
+      stretchH: 'all',
+      fixedRowsTop: 0,
+      fillHandle: false,
+      rowHeights: 30,
+      className: "htCenter htMiddle",
+      currentRowClassName: 'currentRow',
+      currentColClassName: 'currentCol',
+      multiColumnSorting: true,
+      licenseKey: `non-commercial-and-evaluation`
+    });
+  </script>
+</body>
+
 </html>
