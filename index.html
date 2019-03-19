@@ -37,17 +37,17 @@
     function loadDB(){
       fetch('data/db.json')
       .then(function(response){
-        return response.text();
+        return response.json();
       })
     };
     var db = loadDB();
+    document.write(db);
 
     var container = document.getElementById('camdb');
     var hot = new Handsontable(container, {
       readOnly: true,
       editor: false,
-      //data: Handsontable.helper.createSpreadsheetData(60, 11),
-      data: db,
+      data: Handsontable.helper.createSpreadsheetData(60, 11),
       rowHeaders: true,
       colHeaders: ['Maker', 'Model / Brain', 'Sensor', 'Former', 'Format', 'Resolution', 'Mode', 'AIR.Width', 'AIR.Height', 'SIA.Width', 'SIA.Height'],
       filters: true,
