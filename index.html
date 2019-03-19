@@ -34,13 +34,6 @@
   <script src="js/handsontable.full.min.js"></script>
   <script>
 
-    fetch('data/db.json')
-    .then(response => response.json())
-    .then(data => {
-      console.log(data) // Prints result from `response.json()` in getRequest
-    })
-    .catch(error => console.error(error))
-
     function loadDB(){
       fetch('data/db.json')
       .then(function(response){
@@ -53,7 +46,8 @@
     var hot = new Handsontable(container, {
       readOnly: true,
       editor: false,
-      data: Handsontable.helper.createSpreadsheetData(60, 11),
+      //data: Handsontable.helper.createSpreadsheetData(60, 11),
+      data: db,
       rowHeaders: true,
       colHeaders: ['Maker', 'Model / Brain', 'Sensor', 'Former', 'Format', 'Resolution', 'Mode', 'AIR.Width', 'AIR.Height', 'SIA.Width', 'SIA.Height'],
       filters: true,
