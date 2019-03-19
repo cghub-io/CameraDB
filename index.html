@@ -32,22 +32,15 @@
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/handsontable.full.min.js"></script>
+  <script type="text/javascript" src="data/db.js"></script>
   <script>
-
-    function loadDB(){
-      fetch('data/db.json')
-      .then(function(response){
-        return response.json();
-      })
-    };
-    var db = loadDB();
-    document.write(db);
 
     var container = document.getElementById('camdb');
     var hot = new Handsontable(container, {
       readOnly: true,
       editor: false,
-      data: Handsontable.helper.createSpreadsheetData(60, 11),
+      //data: Handsontable.helper.createSpreadsheetData(60, 11),
+      data: JSON.parse(JSON.stringify(db)),
       rowHeaders: true,
       colHeaders: ['Maker', 'Model / Brain', 'Sensor', 'Former', 'Format', 'Resolution', 'Mode', 'AIR.Width', 'AIR.Height', 'SIA.Width', 'SIA.Height'],
       filters: true,

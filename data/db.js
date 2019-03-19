@@ -1,4 +1,5 @@
-[{
+var db = [
+{
   "maker": "RED",
   "model": "DSMC2 HELIUM 8K S35",
   "sensor": "HELIUM 8K S35",
@@ -1366,4 +1367,5 @@
   "airheight": 256,
   "siawidth": 7.48,
   "siaheight": 0.93
-}]
+}
+]
