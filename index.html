@@ -29,12 +29,13 @@
 
   <div id="camdb"></div>
 
+
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/handsontable.full.min.js"></script>
   <script type="text/javascript" src="data/db.js"></script>
-  <script>
 
+  <script>
     var container = document.getElementById('camdb');
     var hot = new Handsontable(container, {
       readOnly: true,
@@ -54,6 +55,7 @@
       currentRowClassName: 'currentRow',
       currentColClassName: 'currentCol',
       multiColumnSorting: true,
+      enterBeginsEditing: false,
       licenseKey: `non-commercial-and-evaluation`
     });
   </script>
