@@ -2873,5 +2873,354 @@ var db = [
     "irheight": "256",
     "siawidth": "10.24",
     "siaheight": "1.28"
+  },
+
+
+
+
+
+  // ALEXA LF
+  {
+    "maker": "ARRI",
+    "model": "ALEXA LF",
+    "sensor": "ARRI ALEV III (A2X) CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "HD",
+    "mode": "LF 16:9",
+    "irwidth": "1920",
+    "irheight": "1080",
+    "siawidth": "31.68",
+    "siaheight": "17.82"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA LF",
+    "sensor": "ARRI ALEV III (A2X) CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "2K",
+    "mode": "LF 16:9",
+    "irwidth": "2048",
+    "irheight": "1152",
+    "siawidth": "31.68",
+    "siaheight": "17.82"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA LF",
+    "sensor": "ARRI ALEV III (A2X) CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "4K UHD",
+    "mode": "LF 16:9",
+    "irwidth": "3840",
+    "irheight": "2160",
+    "siawidth": "31.68",
+    "siaheight": "17.82"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA LF",
+    "sensor": "ARRI ALEV III (A2X) CMOS",
+    "former": "",
+    "format": "ARRIRAW",
+    "resolution": "4K UHD",
+    "mode": "LF 16:9",
+    "irwidth": "3840",
+    "irheight": "2160",
+    "siawidth": "31.68",
+    "siaheight": "17.82"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA LF",
+    "sensor": "ARRI ALEV III (A2X) CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "Scope 4.5K",
+    "mode": "LF 2.39:1",
+    "irwidth": "4448",
+    "irheight": "1856",
+    "siawidth": "36.70",
+    "siaheight": "15.31"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA LF",
+    "sensor": "ARRI ALEV III (A2X) CMOS",
+    "former": "",
+    "format": "ARRIRAW",
+    "resolution": "Scope 4.5K",
+    "mode": "LF 2.39:1",
+    "irwidth": "4448",
+    "irheight": "1856",
+    "siawidth": "36.70",
+    "siaheight": "15.31"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA LF",
+    "sensor": "ARRI ALEV III (A2X) CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "OG 4.5K",
+    "mode": "LF Open Gate",
+    "irwidth": "4448",
+    "irheight": "3096",
+    "siawidth": "36.70",
+    "siaheight": "25.54"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA LF",
+    "sensor": "ARRI ALEV III (A2X) CMOS",
+    "former": "",
+    "format": "ARRIRAW",
+    "resolution": "OG 4.5K",
+    "mode": "LF Open Gate",
+    "irwidth": "4448",
+    "irheight": "3096",
+    "siawidth": "36.70",
+    "siaheight": "25.54"
+  },
+
+
+
+
+
+
+  // ALEXA SXT
+
+  {
+    "maker": "ARRI",
+    "model": "ALEXA SXT",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "HD",
+    "mode": "16:9",
+    "irwidth": "1920",
+    "irheight": "1080",
+    "siawidth": "23.76",
+    "siaheight": "13.37"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA SXT",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "2K",
+    "mode": "16:9",
+    "irwidth": "2048",
+    "irheight": "1152",
+    "siawidth": "23.76",
+    "siaheight": "13.37"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA SXT",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "3.2K",
+    "mode": "16:9",
+    "irwidth": "3200",
+    "irheight": "1800",
+    "siawidth": "26.40",
+    "siaheight": "14.85"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA SXT",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "4K UHD",
+    "mode": "16:9",
+    "irwidth": "3840",
+    "irheight": "2160",
+    "siawidth": "26.40",
+    "siaheight": "14.85"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA SXT",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ARRIRAW",
+    "resolution": "2.8K",
+    "mode": "16:9",
+    "irwidth": "2880",
+    "irheight": "1620",
+    "siawidth": "23.76",
+    "siaheight": "13.37"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA SXT",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ARRIRAW",
+    "resolution": "3.2K",
+    "mode": "16:9",
+    "irwidth": "3168",
+    "irheight": "1782",
+    "siawidth": "26.14",
+    "siaheight": "14.70"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA SXT",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "2.8K",
+    "mode": "4:3",
+    "irwidth": "2880",
+    "irheight": "2160",
+    "siawidth": "23.76",
+    "siaheight": "17.82"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA SXT",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ARRIRAW",
+    "resolution": "2.8K",
+    "mode": "4:3",
+    "irwidth": "2880",
+    "irheight": "2160",
+    "siawidth": "23.76",
+    "siaheight": "17.82"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA SXT",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "2K Anamorphic",
+    "mode": "6:5",
+    "irwidth": "2048",
+    "irheight": "858",
+    "siawidth": "21.12",
+    "siaheight": "17.70"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA SXT",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "4K Cine Anamorphic",
+    "mode": "6:5",
+    "irwidth": "4096",
+    "irheight": "1716",
+    "siawidth": "21.12",
+    "siaheight": "17.70"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA SXT",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ARRIRAW",
+    "resolution": "2.6K",
+    "mode": "6:5",
+    "irwidth": "2578",
+    "irheight": "2160",
+    "siawidth": "21.38",
+    "siaheight": "17.82"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA SXT",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "3.4K",
+    "mode": "Open Gate",
+    "irwidth": "3424",
+    "irheight": "2202",
+    "siawidth": "28.25",
+    "siaheight": "18.17"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA SXT",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "4K Cine",
+    "mode": "Open Gate",
+    "irwidth": "4096",
+    "irheight": "2636",
+    "siawidth": "28.17",
+    "siaheight": "18.13"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA SXT",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ARRIRAW",
+    "resolution": "3.4K",
+    "mode": "Open Gate",
+    "irwidth": "3424",
+    "irheight": "2202",
+    "siawidth": "28.25",
+    "siaheight": "18.17"
+  },
+
+
+
+
+
+  // ALEXA 65
+
+  {
+    "maker": "ARRI",
+    "model": "ALEXA 65",
+    "sensor": "ARRI A3X CMOS",
+    "former": "",
+    "format": "ARRIRAW",
+    "resolution": "4K UHD",
+    "mode": "",
+    "irwidth": "3840",
+    "irheight": "2160",
+    "siawidth": "31.68",
+    "siaheight": "17.82"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA 65",
+    "sensor": "ARRI A3X CMOS",
+    "former": "",
+    "format": "ARRIRAW",
+    "resolution": "4.3K",
+    "mode": "",
+    "irwidth": "4320",
+    "irheight": "2880",
+    "siawidth": "35.64",
+    "siaheight": "23.76"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA 65",
+    "sensor": "ARRI A3X CMOS",
+    "former": "",
+    "format": "ARRIRAW",
+    "resolution": "LF Open Gate",
+    "mode": "",
+    "irwidth": "4448",
+    "irheight": "3096",
+    "siawidth": "36.70",
+    "siaheight": "25.54"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA 65",
+    "sensor": "ARRI A3X CMOS",
+    "former": "",
+    "format": "ARRIRAW",
+    "resolution": "5.1K",
+    "mode": "",
+    "irwidth": "5120",
+    "irheight": "2880",
+    "siawidth": "42.24",
+    "siaheight": "23.76"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA 65",
+    "sensor": "ARRI A3X CMOS",
+    "former": "",
+    "format": "ARRIRAW",
+    "resolution": "Open Gate",
+    "mode": "",
+    "irwidth": "6560",
+    "irheight": "3100",
+    "siawidth": "54.12",
+    "siaheight": "25.58"
   }
+
 ]
