@@ -23,12 +23,11 @@
   <nav class="navbar navbar-dark bg-dark">
     <span class="navbar-brand mb-0 h1">CameraDB</span>
     <span class="navbar-text">
-      AIR - <strong>A</strong>ctive <strong>I</strong>mage <strong>R</strong>esolution , SIA - <strong>S</strong>ensor <strong>I</strong>mage <strong>A</strong>rea
+      IR - <strong>I</strong>mage <strong>R</strong>esolution , SIA - <strong>S</strong>ensor <strong>I</strong>mage <strong>A</strong>rea
     </span>
   </nav>
 
   <div id="camdb"></div>
-
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
@@ -43,14 +42,13 @@
       //data: Handsontable.helper.createSpreadsheetData(60, 11),
       data: JSON.parse(JSON.stringify(db)),
       rowHeaders: true,
-      colHeaders: ['Maker', 'Model / Brain', 'Sensor', 'Former', 'Format', 'Resolution', 'Mode', 'AIR.Width', 'AIR.Height', 'SIA.Width', 'SIA.Height'],
+      colHeaders: ['Maker', 'Model / Brain', 'Sensor', 'Former', 'Format', 'Res', 'Mode', 'IR.W(px)', 'IR.H(px)', 'SIA.W(mm)', 'SIA.H(mm)'],
       filters: true,
       dropdownMenu: ['filter_by_condition', 'filter_action_bar', 'filter_by_value'],
-
       stretchH: 'all',
       fixedRowsTop: 0,
       fillHandle: false,
-      rowHeights: 30,
+      //rowHeights: 30,
       className: "htCenter htMiddle",
       currentRowClassName: 'currentRow',
       currentColClassName: 'currentCol',
