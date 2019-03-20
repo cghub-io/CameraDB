@@ -3221,6 +3221,458 @@ var db = [
     "irheight": "3100",
     "siawidth": "54.12",
     "siaheight": "25.58"
+  },
+
+
+
+
+
+  // ALEXA MINI
+
+  {
+    "maker": "ARRI",
+    "model": "ALEXA MINI",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "S16 HD",
+    "mode": "",
+    "irwidth": 1920,
+    "irheight": 1080,
+    "siawidth": 13.2,
+    "siaheight": 7.425
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA MINI",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "HD",
+    "mode": "",
+    "irwidth": 1920,
+    "irheight": 1080,
+    "siawidth": 23.76,
+    "siaheight": 13.37
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA MINI",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "HD Ana.",
+    "mode": "",
+    "irwidth": 1920,
+    "irheight": 1080,
+    "siawidth": 15.84,
+    "siaheight": 17.82
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA MINI",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "ProRes 2K",
+    "mode": "",
+    "irwidth": 2048,
+    "irheight": 1152,
+    "siawidth": 23.66,
+    "siaheight": 13.3
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA MINI",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "2K Ana.",
+    "mode": "2.39:1",
+    "irwidth": 2048,
+    "irheight": 858,
+    "siawidth": 21.12,
+    "siaheight": 17.7
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA MINI",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "2.8K",
+    "mode": "4:3",
+    "irwidth": 2880,
+    "irheight": 2160,
+    "siawidth": 23.76,
+    "siaheight": 17.82
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA MINI",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "3.2K",
+    "mode": "",
+    "irwidth": 3200,
+    "irheight": 1800,
+    "siawidth": 26.4,
+    "siaheight": 14.85
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA MINI",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "4K UHD",
+    "mode": "",
+    "irwidth": 3840,
+    "irheight": 2160,
+    "siawidth": 26.4,
+    "siaheight": 14.85
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA MINI",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "MXF/ARRIRAW",
+    "resolution": "HD Ana.",
+    "mode": "16:9",
+    "irwidth": 1920,
+    "irheight": 2160,
+    "siawidth": 15.84,
+    "siaheight": 17.82
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA MINI",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "MXF/ARRIRAW",
+    "resolution": "2K Ana.",
+    "mode": "2.39:1",
+    "irwidth": 2560,
+    "irheight": 2145,
+    "siawidth": 21.12,
+    "siaheight": 17.7
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA MINI",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "MXF/ARRIRAW",
+    "resolution": "2.8K",
+    "mode": "",
+    "irwidth": 2880,
+    "irheight": 1620,
+    "siawidth": 23.76,
+    "siaheight": 17.82
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA MINI",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "MXF/ARRIRAW",
+    "resolution": "2.8K",
+    "mode": "4:3 ",
+    "irwidth": 2880,
+    "irheight": 2160,
+    "siawidth": 23.76,
+    "siaheight": 17.82
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA MINI",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "MXF/ARRIRAW",
+    "resolution": "3.4K",
+    "mode": "Open Gate ",
+    "irwidth": 3424,
+    "irheight": 2202,
+    "siawidth": 28.25,
+    "siaheight": 18.17
+  },
+
+
+
+  // ALEXA AMIRA
+
+  {
+    "maker": "ARRI",
+    "model": "ALEXA AMIRA",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "MPEG-2",
+    "resolution": "HD",
+    "mode": "",
+    "irwidth": "1920",
+    "irheight": "1080",
+    "siawidth": "23.76",
+    "siaheight": "13.37"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA AMIRA",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "S16 HD",
+    "mode": "",
+    "irwidth": "1920",
+    "irheight": "1080",
+    "siawidth": "13.20",
+    "siaheight": "7.425"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA AMIRA",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "HD",
+    "mode": "",
+    "irwidth": "1920",
+    "irheight": "1080",
+    "siawidth": "23.76",
+    "siaheight": "13.37"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA AMIRA",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "ProRes 2K",
+    "mode": "",
+    "irwidth": "2048",
+    "irheight": "1152",
+    "siawidth": "23.66",
+    "siaheight": "13.30"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA AMIRA",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "3.2K",
+    "mode": "",
+    "irwidth": "3200",
+    "irheight": "1800",
+    "siawidth": "26.40",
+    "siaheight": "14.85"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA AMIRA",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "4K UHD",
+    "mode": "",
+    "irwidth": "3840",
+    "irheight": "2160",
+    "siawidth": "26.40",
+    "siaheight": "14.85"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA AMIRA",
+    "sensor": "ARRI ALEV III CMOS",
+    "former": "",
+    "format": "MXF/ARRIRAW",
+    "resolution": "2.8K",
+    "mode": "",
+    "irwidth": "2880",
+    "irheight": "1620",
+    "siawidth": "23.76",
+    "siaheight": "17.82"
+  },
+
+
+
+
+
+
+  // ALEXA XT
+
+  {
+    "maker": "ARRI",
+    "model": "ALEXA XT",
+    "sensor": "",
+    "former": "",
+    "format": "DNxHD",
+    "resolution": "HD",
+    "mode": "16:9",
+    "irwidth": "1920",
+    "irheight": "1080",
+    "siawidth": "23.76",
+    "siaheight": "13.37"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA XT",
+    "sensor": "",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "HD",
+    "mode": "16:9",
+    "irwidth": "1920",
+    "irheight": "1080",
+    "siawidth": "23.76",
+    "siaheight": "13.37"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA XT",
+    "sensor": "",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "2K",
+    "mode": "16:9",
+    "irwidth": "2048",
+    "irheight": "1152",
+    "siawidth": "23.66",
+    "siaheight": "13.32"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA XT",
+    "sensor": "",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "3.2K",
+    "mode": "16:9",
+    "irwidth": "3164",
+    "irheight": "1778",
+    "siawidth": "26.14",
+    "siaheight": "14.70"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA XT",
+    "sensor": "",
+    "former": "",
+    "format": "ARRIRAW",
+    "resolution": "2.8K",
+    "mode": "16:9",
+    "irwidth": "2880",
+    "irheight": "1620",
+    "siawidth": "23.76",
+    "siaheight": "13.37"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA XT",
+    "sensor": "",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "2K",
+    "mode": "4:3",
+    "irwidth": "2048",
+    "irheight": "1536",
+    "siawidth": "23.66",
+    "siaheight": "17.75"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA XT",
+    "sensor": "",
+    "former": "",
+    "format": "ARRIRAW",
+    "resolution": "Cropped",
+    "mode": "4:3",
+    "irwidth": "2578",
+    "irheight": "2160",
+    "siawidth": "21.27",
+    "siaheight": "17.82"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA XT",
+    "sensor": "",
+    "former": "",
+    "format": "ARRIRAW",
+    "resolution": "Full",
+    "mode": "4:3",
+    "irwidth": "2880",
+    "irheight": "2160",
+    "siawidth": "23.76",
+    "siaheight": "17.82"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA XT",
+    "sensor": "",
+    "former": "",
+    "format": "ARRIRAW",
+    "resolution": "Open Gate",
+    "mode": "Open Gate",
+    "irwidth": "3414",
+    "irheight": "2198",
+    "siawidth": "28.25",
+    "siaheight": "18.17"
+  },
+
+
+
+
+
+
+  //ALEXA
+
+  {
+    "maker": "ARRI",
+    "model": "ALEXA",
+    "sensor": "",
+    "former": "",
+    "format": "DNxHD",
+    "resolution": "HD",
+    "mode": "16:9",
+    "irwidth": "1920",
+    "irheight": "1080",
+    "siawidth": "23.76",
+    "siaheight": "13.37"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA",
+    "sensor": "",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "HD",
+    "mode": "16:9",
+    "irwidth": "1920",
+    "irheight": "1080",
+    "siawidth": "23.76",
+    "siaheight": "13.37"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA",
+    "sensor": "",
+    "former": "",
+    "format": "",
+    "resolution": "2K",
+    "mode": "16:9",
+    "irwidth": "2048",
+    "irheight": "1152",
+    "siawidth": "23.66",
+    "siaheight": "13.32"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA",
+    "sensor": "",
+    "former": "",
+    "format": "ARRIRAW",
+    "resolution": "2.8K",
+    "mode": "16:9",
+    "irwidth": "2880",
+    "irheight": "1620",
+    "siawidth": "23.76",
+    "siaheight": "13.37"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA",
+    "sensor": "",
+    "former": "",
+    "format": "ProRes",
+    "resolution": "2K",
+    "mode": "4:3",
+    "irwidth": "2048",
+    "irheight": "1536",
+    "siawidth": "23.66",
+    "siaheight": "17.75"
+  }, {
+    "maker": "ARRI",
+    "model": "ALEXA",
+    "sensor": "",
+    "former": "",
+    "format": "ARRIRAW",
+    "resolution": "2.8K",
+    "mode": "4:3",
+    "irwidth": "2880",
+    "irheight": "2160",
+    "siawidth": "23.76",
+    "siaheight": "17.82"
   }
 
 ]

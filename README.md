@@ -11,3 +11,7 @@
 - Bootstrap
 
 - Handsontable
+
+## Reference
+
+[ARRI - Configuration Overviews - Archive](https://www.arri.com/en/learn-help/camera-accessories-configuration-overviews/archive#accordion-76192)
