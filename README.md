@@ -6,11 +6,18 @@
 
 [Preview - https://kohyuk91.github.io/CameraDB/](https://kohyuk91.github.io/CameraDB/)
 
-## Overview
+- [Bootstrap](https://getbootstrap.com/)
 
-- Bootstrap
+- [Handsontable](https://handsontable.com/)
 
-- Handsontable
+
+## TODO
+
+1. RED
+
+2. ARRI
+
+3. BLACKMAGIC
 
 ## Reference
 
